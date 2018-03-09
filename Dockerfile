@@ -7,7 +7,7 @@ ADD http://nginx.org/keys/nginx_signing.key .
 RUN apt-key add nginx_signing.key && \
         apt-get -y update && \
         apt-get -y install \
-			unit=0.2-1~xenial \
+			unit=0.6-1~xenial \
 			unit-php \
 			unit-python2.7
 
